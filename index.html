@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Abundant Grace Schools</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+    header {
+      background: blue;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      background: lightblue;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: black;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('./Documents/abg_pictures/IMG-20191009-WA0017.jpg') no-repeat center center/cover;
+      height: 300px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h2 {
+      background-color: rgba(0,0,0,0.6);
+      padding: 20px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .programs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .program {
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    .program:hover{
+background-color: lightblue;
+    }
+    footer {
+      background: blue;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media screen and (max-width :500px) {
+        header > h1 {
+            font-size : 25px;
+        }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Abundant Grace Students Coding Project</h1>
+    <p style="font-family: cursive; font-style: italic;">Created by JSS1&2, SS1&2 Students</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#programs">Programs</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h2>Welcome to Abundant Grace School – Where Learning Begins</h2>
+  </div>
+
+  <section id="about">
+    <h2  style="color: blue;">About Us</h2>
+    <p>Abundant Grace School is dedicated to providing quality education in a nurturing and supportive environment. Our mission is to empower students with the knowledge, skills, and values they need to succeed in life.</p>
+  </section>
+
+  <section id="programs">
+    <h2  style="color: blue;">Our Programs</h2>
+    <div class="programs">
+      <div class="program">
+       <h3  style="color: blue; font-weight: lighter;">Basic Education</h3>
+        <p>Nursery, Primary, and Junior Secondary education for young learners.</p>
+      </div>
+      <div class="program">
+     <h3 style="color: blue; font-weight: lighter;">Science & Tech</h3>
+        <p>Modern science and ICT curriculum with practical training and labs.</p>
+      </div>
+      <div class="program">
+        <h3 style="color: blue; font-weight: lighter;">Arts & Culture</h3>
+        <p>Creative programs in music, art, drama, and local heritage studies.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 style="color:blue;">Contact Us</h2>
+    <p>Email: Lorem ipsum dolor sit amet.</p>
+    <p>Phone:  08033065952</p>
+    <p>Address: Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Abundant Grace Students Project</p>
+  </footer>
+
+</body>
+</html>
